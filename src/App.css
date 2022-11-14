@@ -1,0 +1,219 @@
+*,*:hover{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5f9ea0;
+}
+
+.button-add{
+  width: 100vw;
+  display: flex;
+  margin-top: 2vh;
+  justify-content: end;
+}
+.button-add button{
+  width: 20vw;
+  margin-right: 5vw;
+  height: 5vh;
+  border: none;
+  background-color: chartreuse;
+  color: white;
+}
+.button-add button:active{
+  background-color: rgb(190, 243, 137);
+}
+.button-add button:hover{
+  background-color: white;
+  border: 2px solid chartreuse;
+  color: chartreuse;
+}
+.usernames{
+  display: flex;
+  gap: 2vw;
+}
+.form{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.96;
+}
+.form-content{
+  width:50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+}
+.buttonclose{
+  width: 50vw;
+  display: flex;
+  justify-content: end;
+}
+.buttonclose button{
+  width: 2vw;
+  height: 4vh;
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 23vh;
+  left: 74vw;
+}
+.buttonclose button:hover{
+  background-color: rgb(122, 75, 84);
+}
+.buttonclose button:active{
+  background-color: white;
+  border: 2px solid crimson ;
+  color: crimson;
+}
+.user-list{
+  margin: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5vh;
+  column-gap: 2vw ;
+}
+@media screen and (max-width: 800px) {
+  .user-list{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.card-users{
+  border: 2px solid #2c4251;
+  padding: 5vh;
+  border-radius: 14px;
+}
+@media screen and (max-width: 800px) {
+  .card-users{
+    border: 2px solid #2c4251;
+    padding: 5vh;
+    border-radius: 14px;
+  }
+}
+.card-users h1{
+  color: cadetblue;
+  margin-bottom: 1vh;
+}
+
+.card-users b{
+  color: #ffa07a;
+}
+.buttons-card{
+  display: flex;
+  justify-content: end;
+  gap: 1vw;
+}
+.buttons-card button{
+  width: 5vw;
+  height: 5vh;
+  border: none;
+  color: white;
+  gap: 2vw;
+}
+.buttons-card button:first-child{
+  background-color: indigo;
+}
+.buttons-card button:first-child:hover{
+  background-color: white;
+  border: 2px solid indigo;
+  color: indigo;
+}
+.buttons-card button:first-child:active{
+  background-color: rgb(97, 42, 136);
+ 
+}
+.buttons-card button:last-child{
+  background-color: crimson;
+}
+.buttons-card button:last-child:active{
+  background-color: rgb(231, 103, 129);
+ 
+}
+.buttons-card button:last-child:hover{
+  background-color: white;
+  border: 2px solid crimson;
+  color: crimson;
+}
+.title-form{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  color: #2c4251;
+}
+form{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+ 
+  
+}
+.delate-succes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+  opacity: 0.9;
+}
+.card-delate{
+  width: 20vw;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  border-radius: 20px;
+}
+.card-delate button{
+  width: 5vw;
+  height: 3vh;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 14px;
+}
+.card-delate button:hover{
+  border: 2px solid cadetblue;
+  background-color: white;
+  color: cadetblue;
+
+}
+.icon-delate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 10vh;
+  background-color: crimson;
+  border-radius: 50%;
+  color: white;
+}
+.add{
+  background-color: chartreuse;
+}
+.update{
+  background-color: rebeccapurple;
+}
